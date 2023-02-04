@@ -9,7 +9,7 @@ class PaoAlho extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Bread Recipe'),
+        title: const Text('My first Bread Recipe'),
       ),
       body: SingleChildScrollView(
         child: Container(
