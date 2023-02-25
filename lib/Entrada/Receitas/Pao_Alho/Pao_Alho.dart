@@ -1,8 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-//import 'package:receitas/Entrada/Data_Entradas.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter/material.dart';
+
 
 class PaoAlho extends StatelessWidget {
   @override
@@ -16,8 +14,8 @@ class PaoAlho extends StatelessWidget {
           padding: const EdgeInsets.all(20),
           child: Column(
             children: <Widget>[
-              Image.network(
-                'https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg',
+              Image.asset(
+                'assets/images/Entradas/Pao-Alho/pao-de-alho.jpg',
                 fit: BoxFit.cover,
                 height: 250,
                 width: double.infinity,

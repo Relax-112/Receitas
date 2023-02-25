@@ -1,21 +1,22 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:receitas/Entrada/Data_Entradas.dart';
+//import 'package:receitas/Entrada/Data_Entradas.dart';
 import 'package:receitas/newrecep.dart';
 import 'package:receitas/Entrada/Receitas/Pao_Alho/Pao_Alho.dart';
-import 'package:receitas/Entrada/Receitas/Pao_Alho/Escolha.dart';
-import 'package:receitas/Entrada/Receitas/Pao.dart';
+import 'package:receitas/Entrada/Receitas/Pao_Alho/Pao_Alho_Caseiro.dart';
 
 
+import 'package:flutter/material.dart';
 
+import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 
-
-class Entradas extends StatelessWidget {
+class Escolha extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(child: Text('Entradas')),
+        title: Text('Escolher Pao'),
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(10),
@@ -26,7 +27,7 @@ class Entradas extends StatelessWidget {
                 onTap: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Pao()),
+                    MaterialPageRoute(builder: (context) => PaoAlho()),
                   );
                 },
                 child: Card(
@@ -38,7 +39,7 @@ class Entradas extends StatelessWidget {
                     children: [
                       Padding(
                         padding: const EdgeInsets.only(top: 18.0, right: 13, left: 13),
-                        child: Image.asset('assets/images/Entradas/Pao/Pao.jpg'),
+                        child: Image.asset('assets/images/Entradas/Pao-Alho/pao-de-alho.jpg'),
                       ),
                       SizedBox(height: 13),
                       Text('1'),
@@ -50,7 +51,7 @@ class Entradas extends StatelessWidget {
                 onTap: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Escolha()),
+                    MaterialPageRoute(builder: (context) => PaoAlhoCaseiro()),
                   );
                 },
                 child: Card(
@@ -64,7 +65,7 @@ class Entradas extends StatelessWidget {
                         padding: const EdgeInsets.only(top: 18.0, right: 13, left: 13),
 
                         child:Image.asset('assets/images/Entradas/Pao-Alho/pao-de-alho-caseiro.jpg'),
-                      ),
+                ),
                       SizedBox(height: 10),
                       Text('2'),
                     ],
@@ -78,4 +79,3 @@ class Entradas extends StatelessWidget {
     );
   }
 }
-
