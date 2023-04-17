@@ -12,7 +12,7 @@ class EscolhaArroz extends StatelessWidget {
       appBar: AppBar(
         title: Padding(
           padding: const EdgeInsets.only(left: 40),
-          child: Text('Escolher La Arroz'),
+          child: Text('Escolher La Arrroz'),
         ),
       ),
       body: SingleChildScrollView(
