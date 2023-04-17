@@ -1,13 +1,15 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+//import 'package:receitas/Entrada/Data_Entradas.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 
-
-class PaoAlho extends StatelessWidget {
+class Carbonara extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Pao de Alho Simples'),
+        title: const Text('Carbona'),
       ),
       body: SingleChildScrollView(
         child: Container(
@@ -15,14 +17,14 @@ class PaoAlho extends StatelessWidget {
           child: Column(
             children: <Widget>[
               Image.asset(
-                'assets/images/Entradas/Pao-Alho/pao-de-alho.jpg',
+                'assets/images/Principal/Massa/Carbonara/carbonara.jpg',
                 fit: BoxFit.cover,
                 height: 250,
                 width: double.infinity,
               ),
               const SizedBox(height: 20),
               const Text(
-                'Bread Recipe',
+                'La Carbonara Italiana',
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,

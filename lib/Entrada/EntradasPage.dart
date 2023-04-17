@@ -22,27 +22,29 @@ class Entradas extends StatelessWidget {
         child: Center(
           child: Column(
             children: [
-              GestureDetector(
-                onTap: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => Pao()),
-                  );
-                },
-                child: Card(
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(10),
-                  ),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.only(top: 18.0, right: 13, left: 13),
-                        child: Image.asset('assets/images/Entradas/Pao/Pao.jpg'),
-                      ),
-                      SizedBox(height: 13),
-                      Text('1'),
-                    ],
+              Center(
+                child: GestureDetector(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => Pao()),
+                    );
+                  },
+                  child: Card(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.only(top: 18.0, right: 13, left: 13),
+                          child: Image.asset('assets/images/Entradas/Pao/Pao.jpg'),
+                        ),
+                        SizedBox(height: 13),
+                        Text('Pao'),
+                      ],
+                    ),
                   ),
                 ),
               ),
@@ -66,11 +68,12 @@ class Entradas extends StatelessWidget {
                         child:Image.asset('assets/images/Entradas/Pao-Alho/pao-de-alho-caseiro.jpg'),
                       ),
                       SizedBox(height: 10),
-                      Text('2'),
+                      Text('Pao de Alho'),
                     ],
                   ),
                 ),
               ),
+
             ],
           ),
         ),

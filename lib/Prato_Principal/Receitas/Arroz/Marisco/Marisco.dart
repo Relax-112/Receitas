@@ -2,12 +2,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 
-class PaoAlho extends StatelessWidget {
+class Marisco extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Pao de Alho Simples'),
+        title: const Text('Carbona'),
       ),
       body: SingleChildScrollView(
         child: Container(
@@ -15,14 +15,14 @@ class PaoAlho extends StatelessWidget {
           child: Column(
             children: <Widget>[
               Image.asset(
-                'assets/images/Entradas/Pao-Alho/pao-de-alho.jpg',
+                'assets/images/Principal/Arroz/arroz.jpg',
                 fit: BoxFit.cover,
                 height: 250,
                 width: double.infinity,
               ),
               const SizedBox(height: 20),
               const Text(
-                'Bread Recipe',
+                'Arroz de La Marisco',
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,

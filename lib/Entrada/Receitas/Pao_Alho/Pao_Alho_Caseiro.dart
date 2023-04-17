@@ -24,7 +24,7 @@ class PaoAlhoCaseiro extends StatelessWidget {
               ),
               const SizedBox(height: 20),
               const Text(
-                'Pao Alho Caseiro',
+                'Pao Alho Elaborado',
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,
