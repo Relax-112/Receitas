@@ -102,7 +102,7 @@ class Camarao extends StatelessWidget {
                           Text(
                             '8. Quando os alhos ja tiverem cozinhados voltar a por os camaroes na frigideira e envolver tudo',
                             textAlign: TextAlign.left,
-                            style: TextStyle(fontSize: 16.0),
+                            style: TextStyle(fontSize: 17.0),
                           ),
                           Text(
                             '9. Agora juntar a massa na frigideira juntamente com um bocado de agua da massa, mexer bem bem e servir',
