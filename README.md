@@ -2,6 +2,15 @@
 
 My receitas
 
+
+
+
+
+![Relax_Ma_Friend_icon_for_my_recipe_app_cca34da6-c0d0-4a72-a593-ca3ab7468acb](https://github.com/Relax-112/Receitas/assets/50721808/0a92cdb2-8a6d-4bf7-82b2-61ec92571dc9)
+
+
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
