@@ -3,6 +3,7 @@ import 'package:receitas/Entrada/EntradasPage.dart';
 import 'package:receitas/Prato_Principal/PratoPrincipalPage.dart';
 import 'package:receitas/Sobrema/SobremesasPage.dart';
 import 'package:receitas/newrecep.dart';
+import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 
 
 void main() {

@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:receitas/Prato_Principal/Receitas/Massa/Carbonara/Carbonara.dart';
 
 import 'Bolonhesa/Bolonhesa.dart';
+import 'Camarao/Camarao.dart';
 
 class EscolhaMassa extends StatelessWidget {
   @override
@@ -36,7 +37,10 @@ class EscolhaMassa extends StatelessWidget {
                     children: [
                       Padding(
                         padding: const EdgeInsets.only(top: 18.0, right: 13, left: 13),
-                        child: Image.asset('assets/images/Principal/Massa/Carbonara/carbonara.jpg'),
+                        child: Image.asset('assets/images/Principal/Massa/Carbonara/carbonara.jpg',
+                          fit: BoxFit.cover,
+                          height: 200,
+                          width: 1000,),
                       ),
                       SizedBox(height: 6),
                       Text('La Carbonara Italiana '),
@@ -60,10 +64,40 @@ class EscolhaMassa extends StatelessWidget {
                     children: [
                       Padding(
                         padding: const EdgeInsets.only(top: 18.0, right: 13, left: 13),
-                        child: Image.asset('assets/images/Principal/Massa/Bolonhesa/bolonhesa.jpg'),
+                        child: Image.asset('assets/images/Principal/Massa/Bolonhesa/bolonhesa.jpg',
+                          fit: BoxFit.cover,
+                          height: 200,
+                          width: 1000,),
                       ),
                       SizedBox(height: 6),
                       Text('Massa Bolonhesa '),
+                    ],
+                  ),
+                ),
+              ),
+              GestureDetector(
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => Camarao()),
+                  );
+                },
+                child: Card(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.only(top: 18.0, right: 13, left: 13),
+                        child: Image.asset('assets/images/Principal/Massa/Camarao/cama.jpg',
+                          fit: BoxFit.cover,
+                          height: 200,
+                          width: 1000,),
+                      ),
+                      SizedBox(height: 6),
+                      Text('Massa Camarão '),
                     ],
                   ),
                 ),
